@@ -1,0 +1,52 @@
+{
+  "name": "WhatsApp Helper — Aly Tech",
+  "short_name": "WA Helper",
+  "description": "أداة الإرسال الذكي للواتساب — إرسال جماعي آمن وسريع بدون حظر",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#0a0f1e",
+  "theme_color": "#10b981",
+  "lang": "ar",
+  "dir": "rtl",
+  "categories": ["productivity", "utilities", "business"],
+
+  "icons": [
+    {
+      "src": "/icon.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+
+  "screenshots": [
+    {
+      "src": "/screenshot-home.png",
+      "sizes": "390x844",
+      "type": "image/png",
+      "label": "الشاشة الرئيسية"
+    }
+  ],
+
+  "shortcuts": [
+    {
+      "name": "إرسال سريع",
+      "short_name": "إرسال",
+      "description": "ابدأ إرسالاً سريعاً",
+      "url": "/?action=send",
+      "icons": [{ "src": "/icon.png", "sizes": "512x512" }]
+    },
+    {
+      "name": "إدارة الجهات",
+      "short_name": "الجهات",
+      "description": "إدارة جهات الاتصال",
+      "url": "/?page=contacts",
+      "icons": [{ "src": "/icon.png", "sizes": "512x512" }]
+    }
+  ],
+
+  "prefer_related_applications": false,
+  "related_applications": []
+}
